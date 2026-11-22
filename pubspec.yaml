@@ -1,0 +1,63 @@
+name: safe_room
+description: "SafeRoom - A gamified mental health mobile application"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^2.0.0
+  material_ui: ^1.11.1
+  google_fonts: ^9.0.0
+  flutter_svg: ^2.5.0
+
+  # State Management
+  flutter_bloc: ^9.1.1
+  equatable: ^3.0.0
+
+  # Dependency Injection
+  get_it: ^9.3.0
+
+  # Functional Programming
+  dartz: ^0.10.1
+
+  # Game Engine
+  flame: ^1.38.2
+  flame_audio: ^2.12.2
+
+  # Backend & Storage
+  shared_preferences: ^2.5.6
+  firebase_core: ^5.2.0
+  firebase_auth: ^7.1.0
+  cloud_firestore: ^7.2.0
+
+  # Networking
+  http: ^1.6.0
+
+  # Utilities
+  uuid: ^4.6.0
+  intl: ^0.20.3
+  flutter_secure_storage: ^11.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/backgrounds/
+    - assets/sprites/
+    - assets/audio/

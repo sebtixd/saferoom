@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "455048851450",
+    "project_id": "saferoom-8ff34",
+    "storage_bucket": "saferoom-8ff34.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455048851450:android:b3e6f38a992cc843353e43",
+        "android_client_info": {
+          "package_name": "com.example.echo_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFoPrKi_0KmZtMJT46r6DL7Fw6aQFqKOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

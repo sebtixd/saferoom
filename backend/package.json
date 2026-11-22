@@ -1,0 +1,15 @@
+{
+  "name": "saferoom-auth-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-contained authentication backend for SafeRoom (Node.js built-ins + SQLite only)",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
